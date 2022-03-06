@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<head>
+<title>KRIYA 2022</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<div id="topbar">
+</div>
+<div class="main">
+	<div class="bars">
+		<div></div>
+		<div></div>
+		<div></div>
+	</div>
+	<nav class="navigation">
+		<a href="#" class="closeNav">close</a>
+		<ul>
+			<li><a href="#">Login</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">FAQ</a></li>
+		</ul>
+	</nav>
+</div>
+<script type="text/javascript">
+	window.onload = function(){
+		const closeNav = document.querySelector('.closeNav');
+		const navigation = document.querySelector('.navigation');
+        const bars = document.querySelector('.bars');
+        
+        closeNav.addEventListener("click",function(){
+        	navigation.style.marginLeft = '-100%';
+        });
+        bars.addEventListener("click",function(){
+        	navigation.style.marginLeft = '0';
+        });
+	}
+</script>
+<div id="container">
+<div id="header">
+<img src="images/kriya logo.png" />
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">Events</a></li>
+<li><a href="#">Workshop</a></li>
+<li><a href="#">Team</a></li>
+<li><a href="#">Contact us</a></li>
+</ul>
+</div>
+<div id="banner">
+<img src="images/banner02.jpg" />
+</div>
+<div id="content1">
+	<h4 class="heading">CIRCUITS</h4>
+	<p class="para1">Capturing the audience in the circuit and make them to tinker their brain to solve the problems on the Embedded Systems. The Participants are tested for their knowledge in the domain of embedded systems and Interfacing. The rounds are structured to know their level of understanding and shortlist them to the final round wherein they will be asked to design a solution for a real life problem statement for the given constrains</p>
+	<a href="#" class="more">Select</a>
+</div>
+<div id="content2">
+	<h4 class="heading">BRAINAIC</h4>
+	<p class="para1">Interested in solving mysteries ? Fan of thrillers ? This is the right game for you ! Puzzle hunt through Google form! In the first round, Players will have to complete/solve challenges to find a code to move on to the next round. Gear up for a crossword puzzle testing your basic understanding of the tech industry followed by a rapid-fire round challenging not just your knowledge but your presence of mind.</p>
+	<a href="#" class="more">Select</a>
+</div>
+<div id="content3">
+	<h4 class="heading">QUIZZARDS</h4>
+	<p class="para1">Want to explore your insight in Physics? Unlock your knowledge at the speed of thought in the fun filled event “PHYZPLORE” The event will be conducted as two rounds. Unleash your critical thinking in the first round’ a quiz from various domains. The second round will be ESCAPE ROOM. Enjoy the day and walk away with prizes.</p>
+	<a href="#" class="more">Select</a>
+</div>
+</div>
+<div id ="bottom">
+	</div>
+<div id="footer">
+	</div>
+
+</body>
+</html>
